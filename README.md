@@ -4,9 +4,7 @@ Upload any CSV, ask questions about it in plain English, and get instant, accura
 
 **🔗 Live demo:** [dev-ai-sql-assistant.streamlit.app](https://dev-ai-sql-assistant.streamlit.app)
 
-![App screenshot](screenshot.png)
-*(Replace this with an actual screenshot of the chat interface — drag an image named `screenshot.png` into this folder)*
-
+![App screenshot](ss.png.jpeg)
 ---
 
 ## What it does
@@ -61,8 +59,6 @@ flowchart TD
     I --> J[Answer + optional chart shown in chat]
     J -.->|context saved| D
 ```
-
-*(This diagram renders automatically on GitHub — no image file needed.)*
 
 ## How it works
 
