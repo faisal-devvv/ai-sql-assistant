@@ -35,13 +35,25 @@ with st.sidebar:
     st.caption("Built with Python, MySQL, Streamlit & Gemini")
 
 MODEL_NAME = "gemini-3.6-flash"
-DB_NAME = "ai_sql_db"
 
 def get_admin_connection():
-    return mysql.connector.connect(host="localhost", user="root", password=os.getenv("MYSQL_PASSWORD"))
+    return mysql.connector.connect(
+        host=os.getenv("MYSQL_HOST"),
+        port=int(os.getenv("MYSQL_PORT", 3306)),
+        user=os.getenv("MYSQL_USER"),
+        password=os.getenv("MYSQL_PASSWORD"),
+        ssl_disabled=False
+    )
 
 def get_db_connection():
-    return mysql.connector.connect(host="localhost", user="root", password=os.getenv("MYSQL_PASSWORD"), database=DB_NAME)
+    return mysql.connector.connect(
+        host=os.getenv("MYSQL_HOST"),
+        port=int(os.getenv("MYSQL_PORT", 3306)),
+        user=os.getenv("MYSQL_USER"),
+        password=os.getenv("MYSQL_PASSWORD"),
+        database=os.getenv("MYSQL_DATABASE", "defaultdb"),
+        ssl_disabled=False
+    )
 
 st.subheader("📁 Upload your data")
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"], label_visibility="collapsed")
@@ -74,7 +86,6 @@ if uploaded_file is not None:
         try:
             admin_conn = get_admin_connection()
             admin_cursor = admin_conn.cursor()
-            admin_cursor.execute(f"CREATE DATABASE IF NOT EXISTS {DB_NAME}")
             admin_conn.close()
 
             conn = get_db_connection()
@@ -83,7 +94,7 @@ if uploaded_file is not None:
             table_name = "uploaded_data"
             cursor.execute(f"DROP TABLE IF EXISTS {table_name}")
 
-            columns_sql = []
+            columns_sql = ["`id` INT AUTO_INCREMENT PRIMARY KEY"]
             schema_description = []
             for col in df.columns:
                 if pd.api.types.is_integer_dtype(df[col]):
@@ -99,8 +110,9 @@ if uploaded_file is not None:
             cursor.execute(create_query)
 
             clean_df = df.astype(object).where(pd.notnull(df), None)
+            col_names_sql = ", ".join([f"`{col}`" for col in df.columns])
             placeholders = ", ".join(["%s"] * len(df.columns))
-            insert_query = f"INSERT INTO {table_name} VALUES ({placeholders})"
+            insert_query = f"INSERT INTO {table_name} ({col_names_sql}) VALUES ({placeholders})"
             cursor.executemany(insert_query, clean_df.values.tolist())
             conn.commit()
             conn.close()
