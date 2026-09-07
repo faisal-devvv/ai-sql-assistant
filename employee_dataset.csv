@@ -1,0 +1,101 @@
+employee_id,name,department,position,salary,bonus,hire_date,performance_score,location,remote_status
+1,Kavya Patel,Operations,Junior,117651,16937,2015-08-25,4.4,San Francisco,On-site
+2,Manish Gupta,HR,Senior,74594,3716,2019-10-05,3.16,Boston,Remote
+3,Swati Nair,Marketing,Manager,108543,13249,2024-10-09,3.33,San Francisco,Remote
+4,Pooja Mehta,Engineering,Senior,70706,16425,2024-05-18,3.04,San Francisco,Hybrid
+5,Aditya Nair,Operations,Manager,83850,3014,2023-07-07,3.2,Seattle,Hybrid
+6,Arjun Mehta,Marketing,Junior,141188,18998,2022-10-31,3.2,New York,Remote
+7,Aditya Joshi,Marketing,Lead,67843,8251,2016-11-20,4.92,San Francisco,On-site
+8,Arjun Nair,Finance,Lead,70855,11592,2019-10-13,4.79,Chicago,Remote
+9,Vikram Patel,Marketing,Junior,134442,16105,2021-06-07,3.41,San Francisco,Hybrid
+10,Nikhil Nair,HR,Manager,92026,17742,2022-12-07,3.51,Austin,Remote
+11,Sanjay Sharma,Finance,Junior,85680,11366,2024-04-06,4.92,Boston,Remote
+12,Divya Nair,Engineering,Mid-level,136514,12272,2021-12-17,4.14,Boston,Remote
+13,Vikram Gupta,Sales,Manager,145255,15119,2022-10-04,3.74,Chicago,On-site
+14,Sanjay Reddy,Finance,Senior,118776,11686,2024-01-12,3.93,New York,Remote
+15,Shreya Reddy,Sales,Mid-level,66442,11954,2017-08-26,3.54,San Francisco,Hybrid
+16,Nikhil Chopra,Finance,Mid-level,51336,13597,2023-01-13,4.17,New York,On-site
+17,Aman Singh,HR,Lead,131997,13169,2019-06-02,4.45,New York,Remote
+18,Neha Iyer,Marketing,Manager,137796,3574,2023-08-01,4.03,New York,Remote
+19,Karan Mehta,Finance,Junior,109120,16960,2024-12-10,4.64,Austin,Remote
+20,Shreya Gupta,Sales,Lead,52913,16281,2020-10-18,3.23,Austin,On-site
+21,Sneha Das,Engineering,Manager,87063,3798,2016-02-11,4.21,Austin,Hybrid
+22,Swati Sharma,Marketing,Junior,98900,13522,2016-07-06,4.98,Chicago,Hybrid
+23,Priya Sharma,Finance,Manager,74428,6110,2022-11-07,3.3,New York,Hybrid
+24,Nikhil Iyer,Engineering,Mid-level,127517,10514,2022-03-10,3.99,Seattle,Remote
+25,Sanjay Nair,Engineering,Senior,145337,11503,2017-07-30,4.26,New York,Hybrid
+26,Shreya Joshi,Finance,Lead,74335,13144,2023-03-17,3.68,Austin,On-site
+27,Neha Gupta,Sales,Lead,62065,13433,2020-09-11,4.93,New York,Remote
+28,Aman Nair,Engineering,Manager,85290,7906,2018-04-19,3.97,Chicago,Hybrid
+29,Shreya Nair,Marketing,Junior,137430,5767,2016-01-07,3.96,Chicago,Remote
+30,Aman Reddy,Engineering,Lead,145118,14188,2017-06-19,4.81,New York,Remote
+31,Karan Gupta,HR,Lead,111488,5420,2023-06-29,3.03,San Francisco,On-site
+32,Priya Gupta,Operations,Senior,132322,13131,2015-03-18,4.74,Boston,Hybrid
+33,Priya Gupta,Operations,Lead,73871,13983,2024-05-21,3.26,Boston,Hybrid
+34,Karan Gupta,Engineering,Mid-level,47572,5864,2023-05-31,3.76,Seattle,Remote
+35,Priya Chopra,Sales,Mid-level,126417,3639,2024-01-15,3.98,Seattle,Hybrid
+36,Ananya Mehta,HR,Junior,96714,11018,2017-10-23,3.95,San Francisco,Remote
+37,Ritu Singh,Marketing,Manager,119872,14842,2020-01-14,3.08,Seattle,On-site
+38,Swati Singh,Engineering,Senior,96192,15359,2024-05-06,3.63,San Francisco,Hybrid
+39,Varun Reddy,Engineering,Senior,75042,13094,2019-12-20,3.71,Chicago,On-site
+40,Shreya Gupta,Finance,Lead,146147,3451,2021-07-05,4.91,New York,Hybrid
+41,Divya Joshi,Operations,Lead,53431,15655,2017-09-17,4.83,San Francisco,On-site
+42,Kavya Sharma,Finance,Mid-level,82102,8830,2020-02-22,4.17,Boston,On-site
+43,Sanjay Chopra,HR,Senior,54492,12035,2015-04-30,4.87,Chicago,Hybrid
+44,Neha Mehta,Operations,Junior,136681,16717,2016-03-13,4.73,Austin,On-site
+45,Sanjay Gupta,Sales,Junior,52067,4339,2023-03-07,3.75,New York,Hybrid
+46,Aditya Patel,Operations,Junior,90005,3230,2017-12-12,3.23,New York,Hybrid
+47,Anjali Chopra,Marketing,Manager,131110,16486,2022-09-27,4.21,Boston,Hybrid
+48,Sneha Sharma,Finance,Mid-level,92397,19012,2018-03-06,3.65,Boston,On-site
+49,Karan Chopra,Engineering,Senior,101272,4649,2020-02-11,3.02,San Francisco,Remote
+50,Arjun Joshi,Finance,Lead,66044,10119,2019-07-14,4.96,San Francisco,Hybrid
+51,Manish Chopra,Marketing,Manager,58646,12828,2021-06-01,4.94,Boston,Remote
+52,Kavya Nair,Marketing,Junior,80023,9609,2015-11-20,4.07,New York,Remote
+53,Meera Singh,Engineering,Senior,82460,6014,2024-10-07,4.24,New York,Remote
+54,Pooja Gupta,Operations,Mid-level,116019,18632,2016-09-19,4.34,San Francisco,On-site
+55,Sanjay Das,HR,Lead,101323,10635,2017-04-19,4.85,San Francisco,Remote
+56,Manish Iyer,Sales,Mid-level,106936,8744,2016-09-16,3.94,Seattle,Remote
+57,Anjali Iyer,Operations,Junior,143435,18539,2022-10-03,4.17,New York,Remote
+58,Anjali Chopra,Engineering,Mid-level,78773,13650,2022-03-15,3.45,Chicago,On-site
+59,Pooja Verma,HR,Lead,67030,2818,2017-02-14,3.48,Chicago,Hybrid
+60,Rahul Reddy,Sales,Lead,130946,14690,2018-09-19,4.04,San Francisco,Hybrid
+61,Karan Patel,Marketing,Lead,64669,6625,2023-06-16,3.46,Austin,Remote
+62,Neha Mehta,Engineering,Senior,117159,14340,2017-02-03,3.06,Chicago,On-site
+63,Aman Iyer,Sales,Manager,64425,13729,2023-06-02,3.74,Austin,Hybrid
+64,Rohit Iyer,HR,Senior,118134,19924,2018-10-15,4.5,Boston,Hybrid
+65,Arjun Singh,HR,Junior,106218,9769,2019-07-27,3.55,Boston,On-site
+66,Rahul Patel,Finance,Senior,97082,3245,2023-03-30,4.73,Chicago,On-site
+67,Ritu Iyer,Operations,Manager,88520,4891,2017-11-19,4.41,New York,Hybrid
+68,Rahul Verma,HR,Mid-level,80614,10415,2018-06-07,4.31,New York,Remote
+69,Ananya Verma,Sales,Junior,122010,3594,2021-07-09,4.78,Austin,Hybrid
+70,Manish Mehta,Operations,Senior,142545,7022,2021-02-17,3.15,New York,On-site
+71,Arjun Iyer,Finance,Junior,97488,14237,2022-10-11,3.36,Boston,Remote
+72,Kavya Reddy,HR,Senior,41607,17813,2023-12-09,4.82,Austin,Hybrid
+73,Neha Nair,Finance,Senior,66230,9911,2020-03-06,4.81,San Francisco,On-site
+74,Anjali Patel,Engineering,Manager,57464,5072,2018-02-05,3.16,Chicago,On-site
+75,Sanjay Mehta,Sales,Lead,85301,13628,2015-08-28,4.55,Austin,On-site
+76,Divya Iyer,Marketing,Mid-level,56132,6216,2015-08-07,3.03,Chicago,Hybrid
+77,Priya Reddy,Marketing,Manager,59198,12319,2019-10-24,3.27,Chicago,On-site
+78,Anjali Chopra,Engineering,Manager,93422,15756,2022-07-30,3.22,Chicago,Remote
+79,Swati Nair,Finance,Mid-level,61571,9925,2022-05-16,3.59,San Francisco,On-site
+80,Shreya Mehta,HR,Mid-level,104752,18428,2015-05-30,3.78,Chicago,On-site
+81,Sanjay Patel,Sales,Mid-level,145390,9776,2024-01-24,4.82,San Francisco,Remote
+82,Pooja Reddy,Engineering,Manager,65372,6576,2022-06-08,3.87,Chicago,Hybrid
+83,Neha Iyer,Finance,Junior,70380,18715,2018-12-23,3.25,Boston,Remote
+84,Kavya Chopra,Sales,Manager,99684,18619,2018-11-01,3.54,Boston,Remote
+85,Varun Sharma,Engineering,Senior,49247,3217,2019-01-22,3.01,Chicago,Remote
+86,Ananya Gupta,Operations,Manager,55664,6839,2021-09-25,3.06,Boston,Hybrid
+87,Meera Sharma,Marketing,Lead,87656,13568,2019-01-12,3.86,New York,Hybrid
+88,Anjali Nair,Finance,Lead,65210,12627,2020-11-03,4.02,Seattle,On-site
+89,Priya Das,Finance,Senior,45013,9078,2017-03-04,3.5,New York,Hybrid
+90,Deepak Chopra,Finance,Manager,41211,14855,2023-01-04,3.76,New York,Hybrid
+91,Aditya Mehta,Finance,Lead,95551,13483,2017-08-21,3.21,New York,Remote
+92,Rahul Sharma,HR,Senior,144768,17662,2015-01-06,4.32,San Francisco,On-site
+93,Rohit Sharma,Sales,Manager,108636,5127,2023-01-23,3.79,San Francisco,Hybrid
+94,Shreya Iyer,Marketing,Mid-level,71751,5625,2019-09-06,3.32,Chicago,Remote
+95,Varun Mehta,Engineering,Junior,77419,2499,2015-10-01,3.99,New York,Hybrid
+96,Neha Reddy,Operations,Lead,76186,17130,2020-02-10,3.42,San Francisco,Hybrid
+97,Divya Verma,Marketing,Senior,83141,9897,2019-08-15,3.58,Austin,Remote
+98,Aditya Sharma,Sales,Senior,63884,8079,2021-12-10,3.25,Chicago,Remote
+99,Nikhil Mehta,Marketing,Junior,76673,8082,2016-12-07,4.56,San Francisco,Remote
+100,Ritu Verma,Operations,Mid-level,135445,7781,2023-04-16,3.56,Chicago,On-site
