@@ -15,8 +15,8 @@ Most "chat with your data" tools are hardcoded to one dataset. This one isn't â€
 > **You:** what is the average salary in engineering
 > **AI:** The average salary in Engineering is about $91,523.
 >
-> **You:** what about San Francisco
-> **AI:** *(understands you're still asking about Engineering, filters by location automatically)*
+>
+>
 
 ---
 
